@@ -1,0 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Roboto:wght@100;400;700&display=swap");
+
+@import "./global/global.css";
+@import "./header/header.css";
+@import "./introducao/introducao.css";
