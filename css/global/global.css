@@ -36,15 +36,3 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-
-.botao {
-  color: #332403;
-  display: inline-block; /* inlineblock, porque a tag A é elemento inline e nao ia ficar estourando o container */
-  padding: 16px 32px;
-  background: linear-gradient(#ffbf00, #f2a50c);
-  border-radius: 4px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  text-transform: uppercase;
-  font: 600 1.125rem/1.35 "Poppins", sans-serif;
-  /* max-width: max-content; */ /* entender o porque do max content */
-}

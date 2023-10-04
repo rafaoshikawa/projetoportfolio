@@ -60,6 +60,9 @@
 }
 
 @media (max-width: 650px) {
+  .header-menu {
+    justify-content: center;
+  }
   .header-menu a {
     font: 10px;
     padding: 8px 12 px;

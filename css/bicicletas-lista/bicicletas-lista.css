@@ -1,0 +1,63 @@
+.bicicletas-lista {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.bicicletas-lista h2 {
+  color: #111111;
+  margin-bottom: 20px;
+}
+
+.bicicletas-lista ul {
+  display: flex;
+  padding: 0px 20px 20px 20px;
+  gap: 40px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto; /* ELE CRIA UM SCROLL NO EIXO X SOMENTE NO CONTAINER UL E NAO NO SITE TODO, e o auto serve para criar o scroll na horizontal somente se precisar */
+}
+.bicicletas-lista li {
+  flex: 1;
+  min-width: 280px; /* defini o min width porque quando der no minimo de 280px ele nao vai diminuir mais, assim ele estoura o container do site e cria um scroll lateral */
+}
+
+.bicicletas-lista h3 {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "poppins", sans-serif;
+  color: #111111;
+  letter-spacing: 1px;
+}
+.bicicletas-lista h3::before {
+  content: "";
+  display: inline-block;
+  height: 8px;
+  width: 12px;
+  margin-right: 8px;
+  background-color: #ffbb00;
+  transition: width 0.2s;
+}
+.bicicletas-lista a:hover h3::before {
+  width: 24px;
+}
+
+.bicicletas-lista ul span {
+  padding: 0px 20px;
+  color: #595959;
+  font-size: 1.45rem;
+  font-family: "roboto", sans-serif;
+}
+
+@media (max-width: 800px) {
+  .bicicletas-lista {
+    padding-bottom: 60px;
+  }
+
+  .bicicletas-lista ul {
+    gap: 20px;
+  }
+}
