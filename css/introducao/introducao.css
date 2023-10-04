@@ -34,11 +34,16 @@
   color: #ffbb00;
 }
 
-.introducao img { /* ISSO SERVE PARA QUANDO EU AJUSTAR A IMAGEM DO TAMANHO QUE EU QUERO, ELA NAO FICA ESTICADA FEIA */
+.introducao img {
+  /* ISSO SERVE PARA QUANDO EU AJUSTAR A IMAGEM DO TAMANHO QUE EU QUERO, ELA NAO FICA ESTICADA FEIA */
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 4px;
+}
+
+.botao:hover {
+  background: linear-gradient(#ffb60d, #e59317);
 }
 
 @media (max-width: 1200px) {
