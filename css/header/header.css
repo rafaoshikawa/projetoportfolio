@@ -50,7 +50,7 @@
   }
   .header-menu a {
     padding: 8px 12px;
-    font: 14px;
+    font-size: 0,875rem;
     background-color: #222121;
     border-radius: 5px;
   }
@@ -59,12 +59,23 @@
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 600px) {
+  .logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .header{
+    justify-content: center;
+    align-items: center;
+  }
   .header-menu {
+    gap: 20px;
     justify-content: center;
   }
   .header-menu a {
-    font: 10px;
+    font-size: 0,875rem;
     padding: 8px 12 px;
     background-color: #222121;
     border-radius: 5px;
