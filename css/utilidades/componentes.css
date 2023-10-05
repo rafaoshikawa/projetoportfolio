@@ -19,3 +19,12 @@
 .ponto {
   color: #ffbb00;
 }
+
+.link {
+  display: inline-block; /* usei inlineblock para o after ter o tamanho de 100% do pai (tag A) se nao ele teria o tamanho total do container por ser uma tag inline */
+  color: #ffbb00;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: "poppins", sans-serif;
+  letter-spacing: 1px;
+}
