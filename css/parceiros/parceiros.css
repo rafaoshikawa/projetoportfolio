@@ -1,0 +1,58 @@
+.parceiros {
+  margin-bottom: 50px;
+}
+
+.parceiros h2 {
+  margin-bottom: 50px;
+}
+
+.parceiros ul {
+  padding: 0 20px;
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+}
+.parceiros li {
+  display: flex; /* defini como display flex os LI pra conseguir definir as img como margin auto para se alinharem */
+  padding: 32px;
+}
+
+.parceiros img {
+  margin: auto;
+}
+
+.parceiros li {
+  border-left: 2px solid #ededed;
+  border-bottom: 2px solid #ededed;
+}
+
+.parceiros li:first-child,
+.parceiros li:nth-child(5) {
+  border-left: none;
+}
+
+.parceiros li:nth-child(n + 5) {
+  /* o n+5 significa que "a partir do quinto item quero que aplique essa estilização */
+  border-bottom: none;
+}
+
+@media (max-width: 800px) {
+  .parceiros {
+    padding-bottom: 60px;
+  }
+  .parceiros h2 {
+    font-size: 3rem;
+  }
+
+  .parceiros ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .parceiros h2 {
+    font-size: 2rem;
+  }
+}

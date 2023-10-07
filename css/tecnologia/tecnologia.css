@@ -1,7 +1,8 @@
 .tecnologia-bg {
   background: #111111;
   box-shadow: inset 0 80px #ffffff, inset 0 -80px #ffffff;
-  margin-bottom: 1000px;
+  margin-bottom: 45px;
+  
 }
 
 .tecnologia {
@@ -87,7 +88,7 @@
   .tecnologia-bg {
     background: #111111;
     box-shadow: inset 0 60px #ffffff, inset 0 -60px #ffffff;
-    margin-bottom: 1000px;
+    /* margin-bottom: 1000px; */
   }
   .tecnologia-span {
     font-size: 1.3rem;
@@ -101,6 +102,9 @@
   .tecnologia {
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .tecnologia h2{
+    font-size: 2rem;
   }
   .tecnologia-span {
     padding-top: none;
