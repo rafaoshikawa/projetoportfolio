@@ -7,7 +7,7 @@
 
 .depoimento img {
   width: 100%;
-  height: 100%;
+  height: 400px;
   object-fit: cover;
   border-radius: 0px;
 }
@@ -22,45 +22,41 @@
   font-family: "Merriweather", sans-serif;
   font-style: italic;
   font-weight: 700;
-  font-size: 2rem;
-  line-height: 1.6;
+  font-size: 1.4rem;
+  line-height: 1.1;
   color: #332200;
-  /* margin-bottom: 100px; */
+  margin-bottom: 30px;
 }
 
-/* .depoimento-conteudo p::before,
+.depoimento-conteudo p::before,
 .depoimento-conteudo p::after {
+  font-size: 5rem;
   color: #e4a30b;
-  font-size: 6rem;
-  position: absolute;
   font-family: "";
+  position: absolute;
 }
+
 .depoimento-conteudo p::before {
-  display: block;
   content: "“";
-  left: -60px;
-  top: -30px;
+  left: -50px;
+  top: -20px;
 }
 .depoimento-conteudo p::after {
-  display: block;
   content: "”";
-  left: 70px;
-  top: 160px;
-} */
+}
 .depoimento-conteudo span {
   display: block;
   font-family: "Merriweather", sans-serif;
   font-weight: 900;
   font-size: 1.3rem;
   color: #664400;
-  margin-bottom: 80px;
 }
 
 @media (max-width: 1000px) {
   .depoimento-conteudo p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
-  .depoimento-conteudo span{
+  .depoimento-conteudo span {
     margin-bottom: -40px;
   }
 }

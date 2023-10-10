@@ -4,6 +4,7 @@
 @import "./utilidades/componentes.css";
 @import "./utilidades/tipografia.css";
 
+/* HOME */
 /* header */
 @import "./header/header.css";
 
@@ -21,3 +22,6 @@
 
 /* depoimento */
 @import "./depoimento/depoimento.css";
+
+/* seguros */
+@import "./seguros/seguros.css";

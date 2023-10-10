@@ -29,12 +29,12 @@
 
 .parceiros li:first-child,
 .parceiros li:nth-child(5) {
-  border-left: none;
+  border-left: 0px;
 }
 
 .parceiros li:nth-child(n + 5) {
   /* o n+5 significa que "a partir do quinto item quero que aplique essa estilização */
-  border-bottom: none;
+  border-bottom: 0px;
 }
 
 @media (max-width: 800px) {
@@ -48,6 +48,21 @@
   .parceiros ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .parceiros li:nth-child(3) {
+    border-left: 0px;
+  }
+  .parceiros li:nth-child(7) {
+    border-left: 0px;
+  }
+  .parceiros li:nth-child(n + 5) {
+    /* o n+5 significa que "a partir do quinto item quero que aplique essa estilização */
+    border-bottom: 2px solid #ededed;
+  }
+  .parceiros li:nth-child(7),
+  .parceiros li:nth-child(8) {
+    border-bottom: 0px;
   }
 }
 

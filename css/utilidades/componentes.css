@@ -7,7 +7,21 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
-  /* max-width: max-content; */ /* entender o porque do max content */
+  max-width: max-content; /* o maxwidth = max-content serve pro botao sempre ter o tamanho maximo dele, ele nao vai crescer mais do que isso */
+}
+.botao-secundario {
+  color: #ffffff;
+  display: inline-block; /* inlineblock, porque a tag A é elemento inline e nao ia ficar estourando o container */
+  padding: 16px 32px;
+  background: #2e2e2e;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  max-width: max-content; /* o maxwidth = max-content serve pro botao sempre ter o tamanho maximo dele, ele nao vai crescer mais do que isso */
+}
+.botao-secundario:hover {
+  background: #404040;
 }
 @media (max-width: 600px) {
   .botao {

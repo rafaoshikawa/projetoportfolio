@@ -60,4 +60,8 @@
   .bicicletas-lista ul {
     gap: 20px;
   }
+
+  .bicicletas-lista h2 {
+    font-size: 2rem;
+  }
 }
