@@ -60,7 +60,7 @@
 }
 
 .seguros-item a {
-  margin-top: 30px;
+  margin-top: 40px;
   grid-column: 1/-1;
 }
 .seguros-item li::before {
@@ -84,14 +84,21 @@
 }
 
 @media (max-width: 1000px) {
-  .seguros-bg h2{
+  .seguros-bg h2 {
     font-size: 2rem;
   }
   .seguros {
     display: grid;
     grid-template-columns: 1fr;
   }
-  .seguros-item{
-    min-width: 100px;
+  .lista-prata {
+    margin-top: 25px;
+  }
+  .lista-ouro {
+    margin-top: 25px;
+  }
+  .preço {
+    margin-top: 10px;
+    font-size: 1.3rem;
   }
 }
