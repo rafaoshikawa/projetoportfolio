@@ -1,3 +1,6 @@
+html {
+  zoom: 80%;
+}
 .introducao-bg {
   background-color: #000000;
   box-shadow: inset 0 -120px #ffffff;
@@ -55,7 +58,6 @@
 
   .introducao-conteudo {
     padding-bottom: 0px;
-    
   }
   .introducao h1 {
     font-size: 2.5rem;
